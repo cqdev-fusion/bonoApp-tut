@@ -1,0 +1,8 @@
+@use "../abstract" as a;
+
+body {
+  font-family: a.$font-stack;
+  line-height: 1.6;
+  background: black;
+  color: white;
+}

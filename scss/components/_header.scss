@@ -1,0 +1,29 @@
+@use "../abstract" as a;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+  .logo {
+    width: 100px;
+    padding: 20px 0 20px 30px;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+
+    li {
+      padding: 0 20px;
+      a {
+        color: #fff;
+      }
+      i {
+        padding-right: 10px;
+      }
+    }
+  }
+}
