@@ -1,0 +1,15 @@
+@use "../abstract" as a;
+
+.btn {
+  display: inline-block;
+  width: 100%;
+  font-weight: 600;
+  padding: 15px 0;
+  background: a.$col-primary;
+  color: a.$col-white;
+  border: 0;
+  border-radius: 20px;
+  &:hover {
+    background: a.$col-secondary;
+  }
+}

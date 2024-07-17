@@ -3,7 +3,6 @@
 .header {
   display: flex;
   justify-content: space-between;
-  align-content: center;
   text-align: center;
   .logo {
     width: 100px;
@@ -19,7 +18,10 @@
     li {
       padding: 0 20px;
       a {
-        color: #fff;
+        color: a.$col-white;
+        &:hover {
+          color: a.$col-purple;
+        }
       }
       i {
         padding-right: 10px;
